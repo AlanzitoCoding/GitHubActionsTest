@@ -1,9 +1,9 @@
-name: Continuos Integration
+name: Continuous Integration
 
 on: pull_request
 
 jobs:
-  continuos-integration:
+  continuous-integration:
     runs-on: windows-latest
     
     steps:
@@ -16,3 +16,4 @@ jobs:
         run: |
           npm install
           npm run test
+
